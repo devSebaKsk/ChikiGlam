@@ -30,10 +30,10 @@ const itemVariants = {
 export const Links = () => {
 
     const items = [
-        "Homepage",
-        "Services",
-        "Portfolio",
-        "Contact"
+        "Inicio",
+        "Servicios",
+        "Nuestros Packs",
+        "Contacto"
     ];
 
   return (

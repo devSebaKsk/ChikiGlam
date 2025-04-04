@@ -17,19 +17,19 @@ const items = [
     },
     {
         id: 3,
-        title: "Pijamada + SkinCare",
+        title: "Pijamada y SkinCare",
         img: "./Portafolio2.jpg",
         desc: "La mejor Noche de Pijamada y skincare. Carpa con capacidad para 8 personas, colchonetas alta densidad, colchas y sabanas, almohadas, decoración encantadora con luces y globos. Skincare de 5 simples pasos: Gel de limpieza de Aveno, mascarillas hidratante rostro, mascarilla hidratante labios y muchas Cositas más!!!"
     },
     {
         id: 4,
-        title: "Pijamada + Cine",
+        title: "Pijamada y Cine",
         img: "./Portafolio3.jpg",
         desc: "Te armamos la mejor pijamada XL y una noche de cine con pantalla 4K. Carpa con capacidad para 8 personas, colchonetas alta densidad colchas, almohadas, decoración encantadora con luces y globos, sumamos la noche de cine."
     },
     {
         id: 5,
-        title: "Pijamada + Cine + SkinCare",
+        title: "Pijamada, Cine y SkinCare",
         img: "./Portafolio5.jpg",
         desc: " Preparensen para disfrutar de una hermosa pijmada XL con skincare y Noche de cine."
     }
@@ -57,7 +57,7 @@ const Single = ({ item }) => {
                     <motion.div className="textContainer" style={{ y }}>
                         <h2 style={{ y }}>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <button>Contratar</button>
+                        <button><a href={'https://wa.me/+5492995217901/?text=Quiero%20contratar%20el%20pack%20'+toString(item.title)+' ?'}>Contratar</a></button>
                     </motion.div>
                 </div>
             </div>
