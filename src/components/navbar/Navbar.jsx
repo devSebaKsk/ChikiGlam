@@ -16,8 +16,8 @@ export const Navbar = () => {
                     Chiki Glam
                 </motion.span>
                 <div className='social'>
-                    <a href='https://www.instagram.com/chiki.glam/'><i className="fa-brands fa-square-instagram" style={{ color: "white" }}></i></a>
-                    <a href='https://wa.me/+5492995217901'><i className="fa-brands fa-square-whatsapp" style={{ color: "white" }}></i></a>
+                    <button href='https://www.instagram.com/chiki.glam/'><i className="fa-brands fa-instagram" ></i><p>Seguinos!</p></button>
+                    <button href='https://wa.me/+5492995217901'><i className="fa-brands fa-whatsapp"></i><p>Contacto!</p></button>
                 </div>
             </div>
         </div>

@@ -6,32 +6,32 @@ const items = [
     {
         id: 1,
         title: "Pijamada",
-        img: "https://images.pexels.com/photos/31263848/pexels-photo-31263848.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos nostrum dignissimos fugiat facere molestiae eligendi dicta! Vitae recusandae necessitatibus tempore reiciendis exercitationem dolores, facere ducimus similique eius labore pariatur deleniti."
+        img: "./Portafolio1.jpg",
+        desc: "La mejor pijamada con amigas. Carpa con capacidad para 8 personas, colchonetas alta densidad, colchas, almohadas, decoración encantadora con luces y globos"
     },
     {
         id: 2,
         title: "Noche De Cine",
         img: "./nochecine.jpg",
-        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos nostrum dignissimos fugiat facere molestiae eligendi dicta! Vitae recusandae necessitatibus tempore reiciendis exercitationem dolores, facere ducimus similique eius labore pariatur deleniti."
+        desc: "4 hs Pantalla XL proyector 4k, pantalla 100, PuFF super COMODOS"
     },
     {
         id: 3,
         title: "Pijamada + SkinCare",
-        img: "https://images.pexels.com/photos/31316960/pexels-photo-31316960/free-photo-of-trafico-nocturno-lluvioso-visto-a-traves-de-la-ventana.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos nostrum dignissimos fugiat facere molestiae eligendi dicta! Vitae recusandae necessitatibus tempore reiciendis exercitationem dolores, facere ducimus similique eius labore pariatur deleniti."
+        img: "./Portafolio2.jpg",
+        desc: "La mejor Noche de Pijamada y skincare. Carpa con capacidad para 8 personas, colchonetas alta densidad, colchas y sabanas, almohadas, decoración encantadora con luces y globos. Skincare de 5 simples pasos: Gel de limpieza de Aveno, mascarillas hidratante rostro, mascarilla hidratante labios y muchas Cositas más!!!"
     },
     {
         id: 4,
         title: "Pijamada + Cine",
-        img: "https://images.pexels.com/photos/30648527/pexels-photo-30648527/free-photo-of-paseo-tranquilo-por-el-rio-a-traves-de-bosques-frondosos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos nostrum dignissimos fugiat facere molestiae eligendi dicta! Vitae recusandae necessitatibus tempore reiciendis exercitationem dolores, facere ducimus similique eius labore pariatur deleniti."
+        img: "./Portafolio3.jpg",
+        desc: "Te armamos la mejor pijamada XL y una noche de cine con pantalla 4K. Carpa con capacidad para 8 personas, colchonetas alta densidad colchas, almohadas, decoración encantadora con luces y globos, sumamos la noche de cine."
     },
     {
         id: 5,
         title: "Pijamada + Cine + SkinCare",
-        img: "https://images.pexels.com/photos/30648527/pexels-photo-30648527/free-photo-of-paseo-tranquilo-por-el-rio-a-traves-de-bosques-frondosos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos nostrum dignissimos fugiat facere molestiae eligendi dicta! Vitae recusandae necessitatibus tempore reiciendis exercitationem dolores, facere ducimus similique eius labore pariatur deleniti."
+        img: "./Portafolio5.jpg",
+        desc: " Preparensen para disfrutar de una hermosa pijmada XL con skincare y Noche de cine."
     }
 ];
 

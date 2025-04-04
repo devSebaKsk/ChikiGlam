@@ -20,6 +20,7 @@
             height: 100%;
         }
         span{
+            padding-left: 50px;
             font-weight: bold;
             @include mobile{
                 display: none;
@@ -29,10 +30,26 @@
         .social{
             display: flex;
             gap: 20px;
-
-            i{
-            font-size: 30px;
+            button{
+                
+                background-color: #84e6cd;
+                display: flex;
+                align-items: center;
+                border: none;
+                border-radius: 10px;
+                justify-content: center;
+                padding: 5px 10px 5px 10px;
+                gap: 15px;
+                p{
+                    font-size: 16px;
+                    color: #a669d5;
+                }
+                i{
+                    font-size: 20px;
+                    color: #a669d5;
+                    }
             }
+            
         }
     }
 }

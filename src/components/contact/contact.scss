@@ -9,7 +9,11 @@
     display: flex;
     align-items: center;
     gap: 50px;
-
+    .item{
+        h2{
+            color: white;
+        }
+    }
     @include mobile{
         width: 100%;
         padding: 10%;
@@ -37,7 +41,7 @@
             }
         }
         span{
-            font-weight: 300;
+            font-weight: 500;
         }
     }
     .formContainer{
@@ -65,6 +69,14 @@
             gap: 10px;
         }
 
+        input::placeholder {
+            font-weight: bold;
+            color: white;
+          }
+        textarea::placeholder {
+            font-weight: bold;
+            color: white;
+          }
         input,textarea{
             padding: 20px;
             background-color: transparent;
@@ -72,6 +84,7 @@
             color: white;
             border-radius: 5px;
 
+            
             @include mobile{
                 padding: 10px;
             }
@@ -79,6 +92,7 @@
 
         button{
             background-color: purple;
+            color: white;
             border: none;
             padding: 20px;
             border-radius: 5px;

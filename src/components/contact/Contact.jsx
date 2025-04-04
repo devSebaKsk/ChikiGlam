@@ -29,18 +29,20 @@ export const Contact = () => {
         ref={ref}
         className='contact' variants={variants} initial="initial" whileInView="animate">
             <motion.div className="textContainer" variants={variants}>
-                <motion.h1 variants={variants}>Let's Work Together</motion.h1>
+                <motion.h1 variants={variants}>Solicitar Servicio</motion.h1>
                 <motion.div className="item" variants={variants}>
-                    <h2>Mail</h2>
-                    <span>mail@mail.com</span>
+                    <h2>Instagram</h2>
+                    <span>@chiki.glam</span>
                 </motion.div>
                 <motion.div className="item" variants={variants}>
                     <h2>Phone</h2>
-                    <span>(+54)9-11-445-332</span>
+                    <span>+54 9 2995 21-7901</span>
                 </motion.div>
                 <motion.div className="item" variants={variants}>
-                    <h2>Address</h2>
-                    <span>Golondrinas 1250</span>
+                    <h2>Localidades</h2>
+                    <span>Neuquén - Cipolletti - Plottier</span>
+                    <br/>
+                    <span>Consultar por otras localidades cercanas</span>
                 </motion.div>
             </motion.div>
             <div className="formContainer">
