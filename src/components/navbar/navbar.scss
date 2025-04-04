@@ -13,7 +13,7 @@
         height: 100%;
         @include mobile{
             justify-content: flex-end;
-            padding: 20px;
+            padding: 10px;
         }
 
         img{
@@ -30,6 +30,9 @@
         .social{
             display: flex;
             gap: 20px;
+            @include mobile{
+                gap: 10px;
+            }
             button{
                 background-color: #84e6cd;
                 display: flex;
@@ -39,6 +42,7 @@
                 justify-content: center;
                 padding: 5px 10px 5px 10px;
                 gap: 15px;
+                
                 p{
                     font-size: 16px;
                     color: #a669d5;
