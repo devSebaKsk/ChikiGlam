@@ -67,8 +67,8 @@ export const Hero = () => {
           <motion.h2 variants={textVariants}>CHIKI GLAM</motion.h2>
           <motion.h1 variants={textVariants}>La Mejor Experencia Para los Mas Chicos</motion.h1>
           <motion.div className="buttons" variants={textVariants}>
-            <motion.a variants={textVariants} href={"#Portfolio"}>Nuestros Planes</motion.a>
-            <motion.a className="contact" variants={textVariants} href={"#Contact"}>Contactanos!</motion.a>
+            <motion.button variants={textVariants} ><a href={"#Portfolio"}>Nuestros Planes</a></motion.button>
+            <motion.button className="contact" variants={textVariants} ><a href={"#Contact"}>Contactanos!</a></motion.button>
           </motion.div>
           <motion.i className="fa-solid fa-arrow-down scroll" style={{color:"#9a20f7", fontSize:"40px"}} variants={textVariants} animate="scrollButton"/>
           

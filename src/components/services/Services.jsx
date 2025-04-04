@@ -46,22 +46,22 @@ export const Services = () => {
             <motion.div className="box" whileHover={{background:"lemonchiffon", color:"black"}}>
                 <h2>Carpa XL</h2>
                 <p>Nuestra espaciosa carpa tienen capacidad para 8 niñas y están equipada con colchonetas de alta densidad para un descanso placentero. ¡La comodidad y la diversión van de la mano!</p>
-                <a href="https://wa.me/+5492995217901/?text=Quiero%20consultar%20por%20la%20carpa?">Pedir Info!</a>
+                <button><a href="https://wa.me/+5492995217901/?text=Quiero%20consultar%20por%20la%20carpa?">Pedir Info!</a></button>
             </motion.div>
             <motion.div className="box" whileHover={{background:"lemonchiffon", color:"black"}}>
                 <h2>Proyector 4K</h2>
                 <p>Noche de cine al aire libre con una selección de películas que las niñas elijan (y cuenten con la autorización del adulto responsable). Proyector 4K de última generación. Pantalla gigante de 100 pulgadas.</p>
-                <a href="https://wa.me/+5492995217901/?text=Quiero%20consultar%20por%20la%20Proyector?">Pedir Info!</a>
+                <button><a href="https://wa.me/+5492995217901/?text=Quiero%20consultar%20por%20la%20Proyector?">Pedir Info!</a></button>
             </motion.div>
             <motion.div className="box" whileHover={{background:"lemonchiffon", color:"black"}}>
                 <h2>SkinCare</h2>
                 <p>⁠Set de Skincare de lujo Cada niña recibirá un set de skincare personalizado, diseñado especialmente para su edad. ¡Cinco sencillos pasos para una piel radiante y una experiencia relajante!</p>
-                <a href="https://wa.me/+5492995217901/?text=Quiero%20consultar%20por%20la%20skincare?">Pedir Info!</a>
+                <button><a href="https://wa.me/+5492995217901/?text=Quiero%20consultar%20por%20la%20skincare?">Pedir Info!</a></button>
             </motion.div>
             <motion.div className="box" whileHover={{background:"lemonchiffon", color:"black"}}>
                 <h2>Decoración Unica</h2>
                 <p>Cada evento es unico y siempre tratamos de dar una decoracion diferente para cada evento. Tenemos una amplia gama de colores y tipos de globos para decorar.</p>
-                <a href="https://wa.me/+5492995217901/?text=Quiero%20consultar%20por%20la%20decoracion?">Pedir Info!</a>
+                <button><a href="https://wa.me/+5492995217901/?text=Quiero%20consultar%20por%20la%20decoracion?">Pedir Info!</a></button>
             </motion.div>
         </motion.div>
     </motion.div>
