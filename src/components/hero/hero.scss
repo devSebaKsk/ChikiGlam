@@ -62,6 +62,7 @@
                     align-items: center;
                     justify-content: center;
                     cursor: pointer;
+                    padding: 20px;
                     font-weight: 300;
                     @include mobile{
                         padding: 10px;
@@ -70,6 +71,7 @@
                 button:hover{
                     background-color: #9a20f7;
                     color: white;
+                    border: 1px solid white;
                 }
                 .contact{
                     background-color: #9a20f7;

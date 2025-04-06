@@ -44,7 +44,7 @@
             gap: 50px;
             @include mobile{
                 flex-direction: column;
-                margin-top: 0;
+                gap: 10px;
             }
 
         .imageContainer{
@@ -52,7 +52,7 @@
             height: 50%;
 
             @include mobile{
-                width: 100%;
+                width: 80%;
                 max-height: 300px;
             }
         img{
@@ -73,7 +73,9 @@
             gap: 30px;
 
             @include mobile{
+                padding-top: -50px;
                 transform: none !important;
+                gap: 17px;
                 padding: 5px;
                 align-items: center;
                 text-align: center;
@@ -91,6 +93,7 @@
                 font-size: 20px;
                 @include mobile{
                     font-size: 16px;
+                    margin: 10px;
                 }
             }
             button{
