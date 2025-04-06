@@ -70,7 +70,7 @@ export const Portfolio = () => {
     const ref = useRef()
     const { scrollYProgress } = useScroll({
         target: ref,
-        offset: ["end end", 'start start']
+        offset: ["end end", 'start center']
     })
 
     const scaleX = useSpring(scrollYProgress, {
