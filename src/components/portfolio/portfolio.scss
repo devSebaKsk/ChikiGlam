@@ -12,15 +12,17 @@
         font-size: 36px;
 
         @include mobile{
-            padding-top: calc(100vh - 100px);
-            font-size: 24px;
+            padding-top: calc(100vh - 900px);
+            font-size: 18px;
         }
 
 
         .progressBar{
             height: 10px;
             background: linear-gradient(-270deg, #FCB7AF, #84e6cd,#fe88da);;
-
+            @include mobile{
+                height: 5px;
+            }
         }
     }
 
@@ -42,6 +44,7 @@
             gap: 50px;
             @include mobile{
                 flex-direction: column;
+                margin-top: 0;
             }
 
         .imageContainer{
@@ -71,7 +74,7 @@
 
             @include mobile{
                 transform: none !important;
-                padding: 10px;
+                padding: 5px;
                 align-items: center;
                 text-align: center;
             }
